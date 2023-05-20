@@ -1,15 +1,10 @@
-@import '../../styles/settings.scss';
-
-.column {
-    text-align: center;
+.columnForm {
     padding: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
 
-@media (max-width: 767px) {
-
-    .column {
-        text-align: left;
-        display: flex;
-        flex-direction: column;
-    }
-} 
+span {
+    margin: 1%;
+}

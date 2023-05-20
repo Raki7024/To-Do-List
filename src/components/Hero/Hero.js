@@ -1,5 +1,6 @@
 import styles from './Hero.module.scss';
 
+
 const Hero = () => {
   return (
     <div className={styles.hero}>
@@ -8,5 +9,7 @@ const Hero = () => {
     </div>
   );
 };
+
+  
 
   export default Hero;

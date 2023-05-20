@@ -1,9 +1,8 @@
-const strContains = (cardTitle, searchTitle) => {
-  if (cardTitle.toLowerCase().includes(searchTitle.toLowerCase())) {
-      return true;
-  } else {
-      return false;
-  };
+export const strContains = (str1, str2) => {
+    if (str1.toLowerCase().includes(str2.toLowerCase())) {
+        return true
+    } else 
+        return false;
+
 };
 
-export default strContains;
